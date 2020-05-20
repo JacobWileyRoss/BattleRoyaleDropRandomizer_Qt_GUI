@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+1f2f6a84a91d8dcb9aa91c58e30e22a3 CMakeFiles/BattleRoyaleDropRandomizer_Qt_GUI_autogen

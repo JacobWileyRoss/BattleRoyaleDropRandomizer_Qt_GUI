@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>MainWindow</class>
+    <widget class="QMainWindow" name="MainWindow">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>700</width>
+                <height>400</height>
+            </rect>
+        </property>
+        <property name="windowTitle">
+            <string>Battle Royale Drop Randomizer</string>
+        </property>
+        <property name="styleSheet">
+            <string notr="true">background-color: rgb(80, 80, 80);</string>
+        </property>
+        <widget class="QWidget" name="centralWidget">
+            <layout class="QVBoxLayout">
+                <item>
+                    <widget class="QComboBox" name="mapSelect">
+                        <property name="styleSheet">
+                            <string notr="true"/>
+                        </property>j
+                    </widget>
+                </item>
+                <item>
+                    <widget class="QLabel" name="locationDisplay">
+                        <property name="styleSheet">
+                            <string notr="true">background-color: rgb(143, 143, 143);</string>
+                        </property>
+                        <property name="text">
+                            <string>Select Game</string>
+                        </property>
+                    </widget>
+                </item>
+                <item>
+                    <widget class="QPushButton" name="dropButton">
+                        <property name="styleSheet">
+                            <string notr="true"/>
+                        </property>
+                        <property name="text">
+                            <string>Drop</string>
+                        </property>
+                    </widget>
+                </item>
+
+            </layout>
+        </widget>
+        <widget class="QMenuBar" name="menuBar">
+            <property name="geometry">
+                <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>400</width>
+                    <height>20</height>
+                </rect>
+            </property>
+            <widget class="QMenu" name="menuFile">
+                <property name="title">
+                    <string>Game Select</string>
+                </property>
+            </widget>
+            <addaction name="menuFile"/>
+        </widget>
+
+        <widget class="QStatusBar" name="statusBar"/>
+    </widget>
+    <layoutdefault spacing="6" margin="11"/>
+    <resources/>
+    <connections/>
+</ui>
