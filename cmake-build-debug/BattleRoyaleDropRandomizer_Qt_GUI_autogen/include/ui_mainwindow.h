@@ -50,7 +50,7 @@ public:
         vboxLayout->setObjectName(QString::fromUtf8("vboxLayout"));
         mapSelect = new QComboBox(centralWidget);
         mapSelect->setObjectName(QString::fromUtf8("mapSelect"));
-        mapSelect->setStyleSheet(QString::fromUtf8(""));
+        mapSelect->setStyleSheet(QString::fromUtf8("selection-color:white;selection-background-color: rgb(48,155,255);"));
 
         vboxLayout->addWidget(mapSelect);
 
@@ -62,7 +62,7 @@ public:
 
         dropButton = new QPushButton(centralWidget);
         dropButton->setObjectName(QString::fromUtf8("dropButton"));
-        dropButton->setStyleSheet(QString::fromUtf8(""));
+        dropButton->setStyleSheet(QString::fromUtf8("background-color: rgb(48,111,255);max-width: 150; margin-left: 265; height: 40"));
 
         vboxLayout->addWidget(dropButton);
 
@@ -72,6 +72,7 @@ public:
         menuBar->setGeometry(QRect(0, 0, 400, 20));
         menuFile = new QMenu(menuBar);
         menuFile->setObjectName(QString::fromUtf8("menuFile"));
+        menuFile->setStyleSheet(QString::fromUtf8("selection-color: white; selection-background-color: rgb(48,155,255)"));
         MainWindow->setMenuBar(menuBar);
         statusBar = new QStatusBar(MainWindow);
         statusBar->setObjectName(QString::fromUtf8("statusBar"));

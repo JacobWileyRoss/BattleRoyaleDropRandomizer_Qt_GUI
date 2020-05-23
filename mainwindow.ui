@@ -21,7 +21,7 @@
                 <item>
                     <widget class="QComboBox" name="mapSelect">
                         <property name="styleSheet">
-                            <string notr="true"/>
+                            <string notr="true">selection-color:white;selection-background-color: rgb(48,155,255);</string>
                         </property>j
                     </widget>
                 </item>
@@ -38,7 +38,7 @@
                 <item>
                     <widget class="QPushButton" name="dropButton">
                         <property name="styleSheet">
-                            <string notr="true"/>
+                            <string notr="true">background-color: rgb(48,111,255);max-width: 150; margin-left: 265; height: 40</string>
                         </property>
                         <property name="text">
                             <string>Drop</string>
@@ -58,6 +58,9 @@
                 </rect>
             </property>
             <widget class="QMenu" name="menuFile">
+                <property name="styleSheet">
+                    <string notr="true">selection-color: white; selection-background-color: rgb(48,155,255)</string>
+                </property>
                 <property name="title">
                     <string>Game Select</string>
                 </property>

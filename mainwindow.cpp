@@ -14,8 +14,10 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->setupUi(this);
 
 
+    ui->mapSelect->addItem("...");
     ui->locationDisplay->setAlignment(Qt::AlignCenter);
-    ui->locationDisplay->setStyleSheet("font: 40pt;");
+    ui->locationDisplay->setStyleSheet("font: 40pt; color: white; border: 2px solid black;");
+
 
 
     ui->menuFile->addAction("Apex", this, SLOT(apex()));
@@ -52,6 +54,8 @@ void MainWindow::apex() {
     ui->mapSelect->clear();
     ui->mapSelect->addItem("Kings Canyon");
     ui->mapSelect->addItem("World's Edge");
+    ui->locationDisplay->setText("APEX");
+    //ui->dropButton->setStyleSheet("background-color: red");
 
 }
 
@@ -61,6 +65,8 @@ void MainWindow::fortnite() {
 
     ui->mapSelect->clear();
     ui->mapSelect->addItem("Battle Royale Island");
+    ui->locationDisplay->setText("FORTNITE");
+    //ui->dropButton->setStyleSheet("background-color:purple");
 }
 
 
@@ -71,6 +77,8 @@ void MainWindow::pubg() {
     ui->mapSelect->addItem("Erangel");
     ui->mapSelect->addItem("Miramar");
     ui->mapSelect->addItem("Sanhok");
+    ui->locationDisplay->setText("PUBG");
+    //ui->dropButton->setStyleSheet(("background-color: yellow"));
 }
 
 
@@ -79,6 +87,8 @@ void MainWindow::warzone() {
 
     ui->mapSelect->clear();
     ui->mapSelect->addItem("Verdansk");
+    ui->locationDisplay->setText("WARZONE");
+    //ui->dropButton->setStyleSheet("background-color: grey");
 }
 
 
@@ -149,7 +159,7 @@ void MainWindow::updateLocationsCache() {
 
 
     //Fail Safe
-    if (ui->mapSelect->currentText() == ""){
+    if (ui->mapSelect->currentText() == "..."){
         locationsCache = {"NO GAME SELECTED"};
     }
 }
