@@ -17,3 +17,6 @@ and you will be provided with a random location
 from the map! 
 
 ![GUI Screenshot 1](/BRDR%20GUI%20Screenshots%20/Battle%20Royale%20Drop%20Randomizer_001.png)
+![GUI Screenshot 2](/BRDR%20GUI%20Screenshots%20/Battle%20Royale%20Drop%20Randomizer_002.png)
+![GUI Screenshot 3](/BRDR%20GUI%20Screenshots%20/Battle%20Royale%20Drop%20Randomizer_003.png)
+![GUI Screenshot 4](/BRDR%20GUI%20Screenshots%20/Battle%20Royale%20Drop%20Randomizer_004.png)
