@@ -15,3 +15,5 @@ Select a game from the "Game Select" menu and
 choose the appropriate map. Hit the drop button,
 and you will be provided with a random location
 from the map! 
+
+![GUI Screenshot 1](/BRDR%20GUI%20Screenshots%20/Battle%20Royale%20Drop%20Randomizer_001.png)
