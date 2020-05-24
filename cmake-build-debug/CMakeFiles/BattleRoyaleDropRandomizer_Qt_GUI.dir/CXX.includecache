@@ -6,6 +6,18 @@
 
 #IncludeRegexTransform: 
 
+/home/enki/MEGA/MEGAsync/Developer/Dev Projects/CLion/BattleRoyaleDropRandomizer_Qt_GUI/cmake-build-debug/BattleRoyaleDropRandomizer_Qt_GUI_autogen/EWIEGA46WW/moc_mainwindow.cpp
+../../../mainwindow.h
+/home/enki/MEGA/MEGAsync/Developer/Dev Projects/CLion/BattleRoyaleDropRandomizer_Qt_GUI/mainwindow.h
+QtCore/qbytearray.h
+-
+QtCore/qmetatype.h
+-
+
+/home/enki/MEGA/MEGAsync/Developer/Dev Projects/CLion/BattleRoyaleDropRandomizer_Qt_GUI/cmake-build-debug/BattleRoyaleDropRandomizer_Qt_GUI_autogen/mocs_compilation.cpp
+EWIEGA46WW/moc_mainwindow.cpp
+/home/enki/MEGA/MEGAsync/Developer/Dev Projects/CLion/BattleRoyaleDropRandomizer_Qt_GUI/cmake-build-debug/BattleRoyaleDropRandomizer_Qt_GUI_autogen/EWIEGA46WW/moc_mainwindow.cpp
+
 /home/enki/MEGA/MEGAsync/Developer/Dev Projects/CLion/BattleRoyaleDropRandomizer_Qt_GUI/main.cpp
 mainwindow.h
 /home/enki/MEGA/MEGAsync/Developer/Dev Projects/CLion/BattleRoyaleDropRandomizer_Qt_GUI/mainwindow.h

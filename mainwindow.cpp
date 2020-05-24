@@ -19,19 +19,17 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->locationDisplay->setStyleSheet("font: 40pt; color: white; border: 2px solid black;");
 
 
-
     ui->menuFile->addAction("Apex", this, SLOT(apex()));
     ui->menuFile->addAction("Fortnite", this, SLOT(fortnite()));
     ui->menuFile->addAction("PUBG", this, SLOT(pubg()));
     ui->menuFile->addAction("Warzone", this, SLOT(warzone()));
-
 }
 
 
-QString MainWindow::randomize(std::vector<QString> locations) {
+QString MainWindow::randomize(const std::vector<QString> &locationsCache) {
 
     //return map.mapLocations.at(rand() % map.mapLocations.size());
-    return locations.at(rand()% locations.size());
+    return locationsCache.at(rand()% locationsCache.size());
 }
 
 
@@ -49,46 +47,41 @@ void MainWindow::on_dropButton_clicked()
 
 
 void MainWindow::apex() {
-    //std::cout << "Apex Selected" << std::endl;
+    qDebug("Apex Selected");
 
     ui->mapSelect->clear();
     ui->mapSelect->addItem("Kings Canyon");
     ui->mapSelect->addItem("World's Edge");
     ui->locationDisplay->setText("APEX");
-    //ui->dropButton->setStyleSheet("background-color: red");
-
 }
 
 
 void MainWindow::fortnite() {
-    //std::cout << "Fortnite Selected" << std::endl;
+    qDebug("Fortnite Selected");
 
     ui->mapSelect->clear();
     ui->mapSelect->addItem("Battle Royale Island");
     ui->locationDisplay->setText("FORTNITE");
-    //ui->dropButton->setStyleSheet("background-color:purple");
 }
 
 
 void MainWindow::pubg() {
-    //std::cout << "PUBG Selected" << std::endl;
+    qDebug("PUBG Selected");
 
     ui->mapSelect->clear();
     ui->mapSelect->addItem("Erangel");
     ui->mapSelect->addItem("Miramar");
     ui->mapSelect->addItem("Sanhok");
     ui->locationDisplay->setText("PUBG");
-    //ui->dropButton->setStyleSheet(("background-color: yellow"));
 }
 
 
 void MainWindow::warzone() {
-    //std::cout << "Warzone Selected" << std::endl;
+    qDebug("Warzone Selected");
 
     ui->mapSelect->clear();
     ui->mapSelect->addItem("Verdansk");
     ui->locationDisplay->setText("WARZONE");
-    //ui->dropButton->setStyleSheet("background-color: grey");
 }
 
 
