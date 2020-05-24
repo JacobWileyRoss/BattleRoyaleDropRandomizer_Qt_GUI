@@ -1,2 +1,1 @@
-* .cmake linguist-detectable=false
-* .cpp linguist-detectable=true
+* .cmake linguist-language=C++
